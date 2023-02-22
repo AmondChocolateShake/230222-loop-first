@@ -10,8 +10,21 @@
   <div id="root"></div>
 
   <script>
-    
+    let pkmon=["피카츄","라이츄","파이리","꼬부기","버터풀"];
+    let root=window["document"].getElementById("root");
+    let a=window;
 
+
+    // c언어 for문과 같음
+    // 반복문은 컴퓨터에게 시작과 끝을 알려준다.
+    for(
+      let index=0;/*첫번째 인덱스를 index 변수에 담았다.시작점*/
+      index<pkmon.length;/*인덱스의 반복 조건,어디까지 인지 알려주기*/
+      index=index+1/*인덱스 증가 폭*/
+      ){
+       console.log(pkmon[index]); 
+
+    }
   </script>
 </body>
 </html>
